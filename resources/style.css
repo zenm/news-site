@@ -1,0 +1,147 @@
+
+
+header{
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  font-family: Verdana;
+  font-size: 14px;
+  font-weight: bold;
+  position: fixed;
+  width: 100%;
+  z-index: 10;
+  background-color: white;
+  top: 0;
+}
+
+
+.logo{
+  margin-right: auto;
+  display: flex;
+  align-items: center;
+  color: MediumAquamarine;
+}
+
+.nav-link a{
+  color: black;
+  margin: 0 1em;
+}
+
+.header-title{
+  margin: 0 2em;
+
+}
+
+.container{
+  margin: 50px 0 0 0;
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+}
+
+
+.column.large {
+  display: flex;
+  flex-flow: column nowrap;
+  width: 630px;
+  margin: 20px 20px 0 0;
+}
+
+.column.medium {
+  display: flex;
+  flex-flow: column nowrap;
+  width: 300px;
+  margin: 20px 20px 0 0;
+}
+
+.column.small {
+  display: flex;
+  flex-flow: column nowrap;
+  width: 240px;
+  margin: 20px 20px 0 0;
+}
+
+.picture-styles {
+  display: flex;
+  text-align: center;
+  color: white;
+  font-family: Georgia;
+  font-weight: bold;
+  font-size: 30px;
+  color: white;
+  height: 300px;
+  background-repeat: no-repeat;
+  background-position: center;
+
+}
+
+
+.story-main {
+  background-image: url("./img-story-main.png");
+  font-size: 40px;
+}
+
+.story1{
+  background-image: url("./img-story-1.png");
+}
+
+.story2 {
+  background-image: url("./img-story-2.png");
+}
+
+.story3{
+  background-image: url("./img-story-3.png");
+}
+
+.story-styles {
+  font-family: Georgia;
+  font-size: 17px;
+  color: black;
+}
+
+.secondary-stories{
+  display: flex;
+}
+.row {
+  display: flex;
+  align-content: stretch;
+}
+.col{
+  display: flex;
+  flex-flow: column nowrap;
+
+}
+.column.small h2{
+  text-align: center;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.column.small span{
+  text-align: center;
+  background-color: WhiteSmoke;
+  font-family: Verdana;
+  font-size: 12px;
+  color: DimGray;
+  border-bottom: 1px solid black;
+}
+
+footer{
+  display: flex;
+  flex-direction: column;
+  height: 300px;
+  justify-content: center;
+  align-items: center;
+  background-color: MediumAquamarine;
+  margin: auto;
+  font-family: Verdana;
+  font-size: 12px;
+}
+
+.footer-title{
+  font-family: Georgia;
+  font-size: 16px;
+  font-weight: bold;
+  color: white;
+  margin
+}
